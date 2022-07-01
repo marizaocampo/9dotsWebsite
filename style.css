@@ -1,6 +1,41 @@
+@font-face{
+  font-family:"KrabbyPatty";
+  src: url(fonts/krabby patty.ttf) format('truetype');
+}
+
+
 body{
   margin-top: 50px;
   text-align: center;
+
+  background-image: url(https://wallpaperaccess.com/full/791225.png);
+  background-size: 100% ;
+  background-attachment: fixed;
 }
 
-<img src="http://media.sbmania.net/pictures/42a/525.png" alt="A black, brown, and white dog wearing a kerchief">
+div{
+  margin-top: 10px;
+}
+
+h1{
+  font-family: "KrabbyPatty";
+  color: white;
+  text-shadow: 2px 2px #b65fcf;
+}
+
+button {
+  background-color: #b65fcf; 
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover{
+  cursor: pointer;
+  color:#b65fcf ;
+  background-color: white;
+}
